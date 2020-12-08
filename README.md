@@ -1,2 +1,1 @@
-# proto
-A Project Prototype.
+# Proto - A project prototype
