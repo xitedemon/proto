@@ -8,6 +8,14 @@
 	Ruby (Uncheck Auto Install Dependency) : https://www.ruby-lang.org/en/
 	Chocolatey : https://chocolatey.org/
 
+### Update NPM:
+> To update NPM
+
+	npm install -g npm@latest
+
+### Turn Off NPM Audit Globally (Optional)
+	npm set audit false
+
 ### Node Package Requirements:
 > Following Node packages must be installed globally :
 
