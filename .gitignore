@@ -1,0 +1,8 @@
+dump.txt
+/temp
+/node_modules
+/assets
+/.sass-cache
+/.idea
+/x
+/app_storages/caches/**/*.html

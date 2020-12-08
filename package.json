@@ -1,0 +1,19 @@
+{
+  "name": "Proto",
+  "version": "0.0.0",
+  "description": "A Project Prototype.",
+  "main": "Gruntfile.js",
+  "private": true,
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xitedemon/proto.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xitedemon/proto/issues"
+  },
+  "homepage": "https://github.com/xitedemon/proto#readme"
+}
