@@ -8,4 +8,8 @@
 	Ruby (Uncheck Auto Install Dependency) : https://www.ruby-lang.org/en/
 	Chocolatey : https://chocolatey.org/
 
+### Node Package Requirements:
+> Following Node packages must be installed globally :
 
+	npm install -g sass
+	npm install -g grunt-cli
