@@ -1,5 +1,5 @@
 # Proto - A project prototype
-## DEV BUILD REQUIRED :
+## PROTO PROJECT BUILD REQUIRED :
 ### Software Requirements:
 > Below programs must be installed on your machine.
 
