@@ -55,3 +55,6 @@
 	npm install -s --save-dev imagemin-mozjpeg
 	npm install -s --save-dev imagemin-gifsicle
 	npm install -s --save-dev imagemin-svgo
+
+### Audit & Fix Packages:
+	npm audit fix
