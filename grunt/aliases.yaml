@@ -1,11 +1,9 @@
 default:
   - 'task:name'
-test:
-  - 'jquery-ready'
-  - 'jshint:demo'
 demo:
   - 'clean:demo'
   - 'clear'
+  - 'copy:demo'
   - 'shell:demo'
   - 'htmlmin:demo'
   - 'cmq:demo'
