@@ -1,2 +1,5 @@
 default:
-  - 'jshint:all'
+  - 'task:name'
+demo:
+  - 'clean:demo'
+  - 'jshint:demo'

@@ -3,12 +3,12 @@ module.exports = {
         jshintrc: true,
         reporter: require('jshint-stylish'),
     },
-    all: {
+    demo: {
         files: {
             src: [
-                'test/**/*.js',
-                '!test/**/*.min.js',
-                '!test/vendor/'
+                'temp/**/*.js',
+                '!temp/**/*.min.js',
+                '!temp/vendors/**'
             ]
         }
     }
