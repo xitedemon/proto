@@ -1,0 +1,25 @@
+{
+  "unused": false,
+  "curly": true,
+  "eqeqeq": true,
+  "immed": true,
+  "latedef": true,
+  "newcap": true,
+  "noarg": true,
+  "sub": true,
+  "undef": true,
+  "boss": true,
+  "eqnull": true,
+  "funcscope": true,
+  "notypeof": true,
+  "singleGroups": true,
+  "debug": true,
+  "scripturl": true,
+  "node": true,
+  "globals": {
+        "jQuery": true,
+        "$": true,
+        "window": true, 
+        "document": true
+    }
+}

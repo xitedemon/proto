@@ -50,6 +50,7 @@
     "imagemin-svgo": "^8.0.0",
     "jit-grunt": "^0.10.0",
     "js-yaml": "^3.14.1",
+    "jshint-stylish": "^2.2.1",
     "load-grunt-config": "^3.0.1",
     "load-grunt-tasks": "^5.1.0",
     "pixrem": "^5.0.0",

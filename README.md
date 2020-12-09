@@ -49,6 +49,7 @@
 	npm install -s --save-dev grunt-contrib-jshint
 	npm install -s --save-dev grunt-contrib-obfuscator
 	npm install -s --save-dev grunt-jquery-ready
+	npm install -s --save-dev jshint-stylish
 	npm install -s --save-dev grunt-postcss
 	npm install -s --save-dev pixrem
 	npm install -s --save-dev autoprefixer
