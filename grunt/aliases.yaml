@@ -3,6 +3,7 @@ default:
 demo:
   - 'clean:demo'
   - 'clear'
+  - 'shell:demo'
   - 'newer:clean:demo'
   - 'uglify:demo'
   - 'obfuscator:demo'
