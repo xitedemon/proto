@@ -1,5 +1,7 @@
 default:
   - 'task:name'
+test:
+  - 'sass:demo'  
 demo:
   - 'clean:demo'
   - 'clear'
