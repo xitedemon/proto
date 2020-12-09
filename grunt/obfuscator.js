@@ -7,8 +7,11 @@ module.exports = {
     demo: {
         options: {},
         files: {
-            'temp/offo/': ['**/*.js', '!**/*.min.js'],
-            'temp/temp-secure.js' : ['temp/temp-secure.js']
+            './out/': [
+                        'temp/offo/**/*.js', 
+                        '!temp/offo/**/*.min.js', 
+                        'temp/temp-secure.js'
+                      ]
         }
     }
 };
