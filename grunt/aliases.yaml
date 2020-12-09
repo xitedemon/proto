@@ -2,4 +2,8 @@ default:
   - 'task:name'
 demo:
   - 'clean:demo'
+  - 'clear'
+  - 'newer:clean:demo'
+  - 'uglify:demo'
+  - 'obfuscator:demo'
   - 'jshint:demo'

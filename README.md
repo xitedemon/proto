@@ -48,6 +48,7 @@
 	npm install -s --save-dev grunt-contrib-uglify
 	npm install -s --save-dev grunt-contrib-jshint
 	npm install -s --save-dev grunt-contrib-obfuscator
+	npm install -s --save-dev javascript-obfuscator
 	npm install -s --save-dev grunt-jquery-ready
 	npm install -s --save-dev jshint-stylish
 	npm install -s --save-dev grunt-postcss
