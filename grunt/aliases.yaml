@@ -4,6 +4,7 @@ demo:
   - 'clean:demo'
   - 'clear'
   - 'copy:demo'
+  - 'concat:demo'
   - 'shell:demo'
   - 'htmlmin:demo'
   - 'concurrent:demo'
