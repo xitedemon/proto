@@ -4,6 +4,7 @@ demo:
   - 'clean:demo'
   - 'clear'
   - 'shell:demo'
+  - 'htmlmin:demo'
   - 'newer:clean:demo'
   - 'uglify:demo'
   - 'obfuscator:demo'
