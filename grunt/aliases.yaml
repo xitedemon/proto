@@ -1,5 +1,8 @@
 default:
   - 'task:name'
+test:
+  - 'jquery-ready'
+  - 'jshint:demo'
 demo:
   - 'clean:demo'
   - 'clear'
@@ -7,6 +10,7 @@ demo:
   - 'htmlmin:demo'
   - 'cmq:demo'
   - 'cssmin:demo'
+  - 'jquery-ready'
   - 'newer:clean:demo'
   - 'uglify:demo'
   - 'obfuscator:demo'
