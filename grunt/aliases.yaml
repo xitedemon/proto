@@ -6,6 +6,7 @@ demo:
   - 'copy:demo'
   - 'shell:demo'
   - 'htmlmin:demo'
+  - 'concurrent:demo'
   - 'cmq:demo'
   - 'cssmin:demo'
   - 'jquery-ready'
