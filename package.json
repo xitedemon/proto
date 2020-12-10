@@ -49,6 +49,7 @@
     "grunt-replace": "^1.0.1",
     "grunt-sass-replace-values": "^0.2.0",
     "grunt-shell": "^3.0.1",
+    "grunt-umd": "^3.0.0",
     "imagemin-gifsicle": "^7.0.0",
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-pngquant": "^9.0.1",

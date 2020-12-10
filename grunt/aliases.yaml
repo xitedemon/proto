@@ -1,7 +1,7 @@
 default:
   - 'task:name'
 run:
-  - 'replace:demo'
+  - 'umd:demo'
 demo:
   - 'clean:demo'
   - 'clear'
@@ -15,6 +15,7 @@ demo:
   - 'cmq:demo'
   - 'cssmin:demo'
   - 'jquery-ready'
+  - 'umd:demo'
   - 'babel:demo'
   - 'sass-replace'
   - 'replace:demo'
