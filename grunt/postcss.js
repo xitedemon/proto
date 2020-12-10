@@ -5,7 +5,7 @@ module.exports = {
             require('autoprefixer')({
                 cascade: true,
                 add: true,
-                //grid: "autoplace"
+                grid: "autoplace"
             })
         ]
     },

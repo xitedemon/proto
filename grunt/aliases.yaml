@@ -10,6 +10,7 @@ demo:
   - 'shell:demo'
   - 'htmlmin:demo'
   - 'concurrent:demo'
+  - 'postcss:demo'
   - 'sass:demo'
   - 'cmq:demo'
   - 'cssmin:demo'
