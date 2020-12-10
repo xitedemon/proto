@@ -12,6 +12,7 @@
 > To update NPM
 
 	npm install -g npm@latest
+	npx browserslist@latest --update-db
 
 ### Turn Off NPM Audit Globally (Optional)
 	npm set audit false
@@ -22,9 +23,17 @@
 	npm install -g sass
 	npm install -g grunt-cli
 
+### Node Package Requirements:
+> Following Node packages must be installed globally :
+
+	npm install -g sass
+	npm install -g grunt-cli
+
 ### Install Dev Build Tool & Plugins:
 > These tools/plugins are required for Grunt :
 
+	npm i -s browserslist
+	npm i -s caniuse-lite
 	npm install -s --save-dev grunt
 	npm install -s --save-dev jit-grunt
 	npm install -s --save-dev load-grunt-config
@@ -51,11 +60,7 @@
 	npm install -s --save-dev javascript-obfuscator
 	npm install -s --save-dev grunt-jquery-ready
 	npm install -s --save-dev jshint-stylish
-	npm install -s --save-dev grunt-postcss
-	npm install -s --save-dev pixrem
-	npm install -s --save-dev autoprefixer
-	npm install -s --save-dev cssnano
-	npm install -s --save-dev postcss
+	npm install -s --save-dev autoprefixer postcss pixrem cssnano @lodder/grunt-postcss
 	npm install -s --save-dev grunt-contrib-sass
 	npm install -s --save-dev grunt-combine-media-queries
 	npm install -s --save-dev grunt-contrib-cssmin
