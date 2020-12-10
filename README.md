@@ -57,6 +57,7 @@
 	npm install -s --save-dev autoprefixer postcss pixrem cssnano @lodder/grunt-postcss
 	npm install -s --save-dev grunt-contrib-sass
 	npm install -s --save-dev grunt-combine-media-queries
+	npm install -s --save-dev grunt-sass-replace-values
 	npm install -s --save-dev grunt-contrib-cssmin
 	npm install -s --save-dev grunt-contrib-htmlmin
 	npm install -s --save-dev grunt-contrib-imagemin
