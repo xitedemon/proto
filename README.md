@@ -22,12 +22,6 @@
 	npm install -g sass
 	npm install -g grunt-cli
 
-### Node Package Requirements:
-> Following Node packages must be installed globally :
-
-	npm install -g sass
-	npm install -g grunt-cli
-
 ### Install Dev Build Tool & Plugins:
 > These tools/plugins are required for Grunt :
 
