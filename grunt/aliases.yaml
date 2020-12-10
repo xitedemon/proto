@@ -1,7 +1,7 @@
 default:
   - 'task:name'
 run:
-  - 'sass-replace'
+  - 'replace:demo'
 demo:
   - 'clean:demo'
   - 'clear'
@@ -17,6 +17,7 @@ demo:
   - 'jquery-ready'
   - 'babel:demo'
   - 'sass-replace'
+  - 'replace:demo'
   - 'newer:clean:demo'
   - 'uglify:demo'
   - 'obfuscator:demo'

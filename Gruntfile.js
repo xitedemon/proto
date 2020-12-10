@@ -19,9 +19,10 @@ module.exports = function(grunt){
 		jitGrunt: {
 			jitGrunt: true,
 			staticMappings: {
-				'cmq' : 'grunt-combine-media-queries',
+				'cmq': 'grunt-combine-media-queries',
 				'postcss': '@lodder/grunt-postcss',
-				'sass-replace' : 'grunt-sass-replace-values'
+				'sass-replace': 'grunt-sass-replace-values',
+				'replace': 'grunt-replace'
 			}
 		},
 		// Path to task.js files, defaults to 'grunt' dir
