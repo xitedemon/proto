@@ -12,7 +12,6 @@
 > To update NPM
 
 	npm install -g npm@latest
-	npx browserslist@latest --update-db
 
 ### Turn Off NPM Audit Globally (Optional)
 	npm set audit false
@@ -34,6 +33,7 @@
 
 	npm i -s browserslist
 	npm i -s caniuse-lite
+	npx browserslist@latest --update-db
 	npm install -s --save-dev grunt
 	npm install -s --save-dev jit-grunt
 	npm install -s --save-dev load-grunt-config
