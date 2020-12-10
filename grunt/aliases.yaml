@@ -1,7 +1,7 @@
 default:
   - 'task:name'
-patch:
-  - 'bump:patch'
+run:
+  - 'sass-replace'
 demo:
   - 'clean:demo'
   - 'clear'
@@ -16,6 +16,7 @@ demo:
   - 'cssmin:demo'
   - 'jquery-ready'
   - 'babel:demo'
+  - 'sass-replace'
   - 'newer:clean:demo'
   - 'uglify:demo'
   - 'obfuscator:demo'
