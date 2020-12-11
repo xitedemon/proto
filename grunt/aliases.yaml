@@ -1,7 +1,7 @@
 default:
   - 'task:name'
 run:
-  - 'file-comment:demo'
+  - 'imagemin:demo'
 demo:
   - 'clean:demo'
   - 'clear'
@@ -16,6 +16,7 @@ demo:
   - 'file-comment:demo'
   - 'cssmin:demo'
   - 'jquery-ready'
+  - 'imagemin:demo'
   - 'umd:demo'
   - 'babel:demo'
   - 'sass-replace'
