@@ -45,6 +45,7 @@
 	npm install -s --save-dev grunt-shell
 	npm install -s --save-dev grunt-bump
 	npm install -s --save-dev grunt-replace
+	npm install -s --save-dev grunt-file-comment
 	npm install -s --save-dev grunt-umd
 	npm install -s --save-dev grunt-babel
 	npm install -s --save-dev @babel/core
