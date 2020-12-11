@@ -1,7 +1,11 @@
 default:
   - 'task:name'
-run:
-  - 'imagemin:demo'
+release-patch:
+  - 'bump:patch'
+release-minor:
+  - 'bump:minor'
+release-major:
+  - 'bump:major'
 demo:
   - 'clean:demo'
   - 'clear'
