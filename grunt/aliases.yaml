@@ -1,7 +1,7 @@
 default:
   - 'task:name'
 run:
-  - 'umd:demo'
+  - 'file-comment:demo'
 demo:
   - 'clean:demo'
   - 'clear'
@@ -13,6 +13,7 @@ demo:
   - 'postcss:demo'
   - 'sass:demo'
   - 'cmq:demo'
+  - 'file-comment:demo'
   - 'cssmin:demo'
   - 'jquery-ready'
   - 'umd:demo'
