@@ -1,7 +1,7 @@
 default:
   - 'task:name'
 run:
-  - 'compress:demo'
+  - 'rename:demo'
 release-patch:
   - 'bump:patch'
 release-minor:
@@ -20,6 +20,7 @@ demo:
   - 'postcss:demo'
   - 'sass:demo'
   - 'cmq:demo'
+  - 'rename:demo'
   - 'file-comment:demo'
   - 'cssmin:demo'
   - 'jquery-ready'
