@@ -1,5 +1,7 @@
 default:
   - 'task:name'
+run:
+  - 'compress:demo'
 release-patch:
   - 'bump:patch'
 release-minor:
@@ -10,6 +12,7 @@ demo:
   - 'clean:demo'
   - 'clear'
   - 'copy:demo'
+  - 'compress:demo'
   - 'concat:demo'
   - 'shell:demo'
   - 'htmlmin:demo'
