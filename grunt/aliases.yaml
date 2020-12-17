@@ -1,7 +1,7 @@
 default:
   - 'task:name'
 run:
-  - 'rename:demo'
+  - 'replacex:demo'
 release-patch:
   - 'bump:patch'
 release-minor:
@@ -28,7 +28,7 @@ demo:
   - 'umd:demo'
   - 'babel:demo'
   - 'sass-replace'
-  - 'replace:demo'
+  - 'replacex:demo'
   - 'newer:clean:demo'
   - 'uglify:demo'
   - 'obfuscator:demo'
