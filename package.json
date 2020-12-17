@@ -1,6 +1,6 @@
 {
   "name": "Proto",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Project Prototype.",
   "main": "Gruntfile.js",
   "private": true,
