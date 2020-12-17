@@ -44,7 +44,7 @@
 	npm install -s --save-dev grunt-clear
 	npm install -s --save-dev grunt-shell
 	npm install -s --save-dev grunt-bump
-	npm install -s --save-dev grunt-replace
+	npm install -s --save-dev grunt-replacex
 	npm install -s --save-dev grunt-file-comment
 	npm install -s --save-dev grunt-contrib-rename
 	npm install -s --save-dev grunt-umd
