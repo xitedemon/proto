@@ -6,4 +6,4 @@ dump.txt
 /.idea
 /x
 /app_storages/caches/**/*.html
-package.json.lock
+package-lock.json
