@@ -63,6 +63,8 @@
 	npm install -s --save-dev grunt-combine-media-queries
 	npm install -s --save-dev grunt-sass-replace-values
 	npm install -s --save-dev grunt-contrib-cssmin
+	npm install -s --save-dev grunt-csso
+    npm install -s --save-dev grunt-cssbeautifier
 	npm install -s --save-dev grunt-contrib-htmlmin
 	npm install -s --save-dev grunt-contrib-imagemin
 	npm install -s --save-dev imagemin-pngquant
