@@ -1,14 +1,16 @@
->= 0.3%
+>= 0.5%
 last 2 major versions
-Chrome >= 29
-Firefox >= 28
-Edge >= 12
+not dead
+Chrome >= 58
+Firefox >= 58
+Edge >= 16
 Firefox ESR
-iOS >= 9
-Safari >= 9
-Android >= 4.4
-not ie < 11
-not ie_mob 10
-Opera >= 15
-not op_mob 12
-Samsung >= 4
+iOS >= 10.3
+Safari >= 10.1
+Android >= 5
+not ie < 12
+not ie_mob < 12
+Opera >= 44
+not op_mob < 59
+not op_mini all
+Samsung >= 6.2
